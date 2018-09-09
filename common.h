@@ -23,3 +23,11 @@ SOFTWARE.
 #define MAX_INPUT_BUFFER        2048
 #define MAX_FILENAME_LENGTH      256
 #define MAX_COMMAND_ARGUMENTS     16
+
+/* 
+Posix Spec. 12.2; Guideline 1
+    Utility names should be between two and nine characters, inclusive. 
+*/
+#define MIN_UTILITY_COMMAND_LENGTH 2
+#define MAX_UTILITY_COMMAND_LENGTH 9
+

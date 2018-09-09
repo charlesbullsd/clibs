@@ -68,4 +68,3 @@ strsep(char **stringp, const char *delim)
 	}
 	/* NOTREACHED */
 }
-DEF_WEAK(strsep);
